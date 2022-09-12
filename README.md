@@ -1,1 +1,3 @@
 # Communities-and-crime
+
+Load the crime data from the UCI repository "Communities and crime''(https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime). Prepare the data you load as a tensor suitable for a neural network. Normalize features as needed. Explain the steps you perform in preparing the data and justify them. Write a function "load _ crime _ data" to load the data and split it into a training and testing subsets. Perform k‐fold cross validation. To report the cross validation results, average the validation error of all the folds and plot it as a function of epochs. Retrain the final model on all training data (i.e. all folds) and test final performance on test set.
